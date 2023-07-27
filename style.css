@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 
@@ -122,6 +122,27 @@ body {
     text-decoration: none;
     color: #1F2937;
     font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7eb;
+    padding: 10px 100px;
+    font-family: 'Roboto', arial;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
 }
 
 div {
