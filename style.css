@@ -145,6 +145,45 @@ body {
     text-align: right;
 }
 
-div {
-    border: 1px solid red;
+.contact {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+    margin: 50px 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact-item {
+    flex: 1;
+}
+
+.contact-text {
+    text-align: left;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    margin: 30px 0px 0px 50px;
+}
+
+.contact-text p {
+    color: #fff;
+    text-align: left;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+.contact-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
 }
